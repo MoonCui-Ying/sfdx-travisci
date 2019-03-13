@@ -24,6 +24,6 @@ private class TestMyClass {
 
     @isTest
     static void myUnitTest() {
-        System.assert(true);
+        new myclass().getAppVersion();
     }
 }
